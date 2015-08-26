@@ -1,5 +1,5 @@
 # Tip-Calculator
-This is an Android demo application for displaying the latest box office movies using the RottenTomatoes API. See the RottenTomatoes Networking Tutorial on our cliffnotes for a step-by-step tutorial.
+A simple tip calculator app as part of a code assignment for Code Path. The basic functionality was built in Swift. A user will be able to enter any amount and see how much they owe based on the tip amount and the number of diners if present.
 
 ## Time spent
 
