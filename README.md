@@ -22,6 +22,7 @@ TBD
 **Kevin Wong**
 * https://kvwong.com/
 * https://twitter.com/kvwong/
-* 
+ 
+
 ## Copyright & License
-Code copyright 2015 Kevin Wong. Code released under the MIT license. 
+Code copyright 2015 Kevin Wong. Code released under the [MIT license](https://github.com/kvwong/Tip-Calculator/blob/master/License). 
