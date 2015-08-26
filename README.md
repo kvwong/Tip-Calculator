@@ -17,3 +17,11 @@ This is an Android demo application for displaying the latest box office movies 
 ## Screens
 
 TBD
+
+## Creator
+**Kevin Wong**
+* https://kvwong.com/
+* https://twitter.com/kvwong/
+* 
+## Copyright & License
+Code copyright 2015 Kevin Wong. Code released under the MIT license. 
