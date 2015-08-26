@@ -1,18 +1,21 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "58 - Settings-2.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "58 - Settings@3x-1.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "80 - Spotlight@3x-1.png",
       "scale" : "2x"
     },
     {
@@ -22,8 +25,9 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "120 - iPhone-1.png",
       "scale" : "2x"
     },
     {
@@ -33,18 +37,21 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "ipad",
       "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "76 - iPad (@1x)-1.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "152 - iPad-1.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "58 - Settings-1.png",
       "scale" : "1x"
     },
     {
@@ -69,6 +76,7 @@
       "size" : "24x24",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "120 - iPhone-2.png",
       "role" : "notificationCenter",
       "subtype" : "38mm"
     },
@@ -76,6 +84,7 @@
       "size" : "27.5x27.5",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "120 - iPhone-3.png",
       "role" : "notificationCenter",
       "subtype" : "42mm"
     },
@@ -89,6 +98,7 @@
     {
       "size" : "29x29",
       "idiom" : "watch",
+      "filename" : "120 - iPhone-4.png",
       "role" : "companionSettings",
       "scale" : "3x"
     },
@@ -96,6 +106,7 @@
       "size" : "40x40",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "120 - iPhone-5.png",
       "role" : "appLauncher",
       "subtype" : "38mm"
     },
@@ -103,6 +114,7 @@
       "size" : "44x44",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "120 - iPhone-6.png",
       "role" : "longLook",
       "subtype" : "42mm"
     },
@@ -110,6 +122,7 @@
       "size" : "86x86",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "120 - iPhone-7.png",
       "role" : "quickLook",
       "subtype" : "38mm"
     },
@@ -117,15 +130,9 @@
       "size" : "98x98",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "120 - iPhone-8.png",
       "role" : "quickLook",
       "subtype" : "42mm"
-    },
-    {
-      "size" : "76x76",
-      "idiom" : "ipad",
-      "filename" : "76 - iPad (@1x)@2x.png",
-      "unassigned" : true,
-      "scale" : "2x"
     }
   ],
   "info" : {
