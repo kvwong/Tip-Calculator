@@ -16,7 +16,17 @@ A simple tip calculator app as part of a code assignment for Code Path. The basi
 
 ## Screens
 
-TBD
+**LAUNCHER**
+
+![](https://github.com/kvwong/Tip-Calculator/blob/master/launch.gif)
+
+**TOTAL + TIP**
+
+![](https://github.com/kvwong/Tip-Calculator/blob/master/bill_amount.gif)
+
+**SPLITTER**
+
+![](https://github.com/kvwong/Tip-Calculator/blob/master/split.gif)
 
 ## Creator
 **Kevin Wong**
