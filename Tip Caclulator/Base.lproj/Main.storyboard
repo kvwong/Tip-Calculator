@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A282a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -19,6 +19,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ped-ZA-aJX">
                                 <rect key="frame" x="0.0" y="306" width="320" height="387"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.094117647058823528" green="0.45098039215686275" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="7mM-rv-4LI"/>
@@ -26,46 +27,42 @@
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nA-O1-bx9">
                                 <rect key="frame" x="16" y="325.5" width="35" height="21.5"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6N-Ie-ZB2">
                                 <rect key="frame" x="16" y="362" width="85" height="29"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ylh-sO-tZh">
                                 <rect key="frame" x="127" y="362" width="177" height="29"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ibn-SX-9J2">
-                                <rect key="frame" x="0.0" y="102" width="320" height="45"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light"/>
-                                <connections>
-                                    <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="editingChanged" id="45K-jy-JUZ"/>
-                                </connections>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 People" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfJ-UI-Mg4">
                                 <rect key="frame" x="16" y="182" width="133" height="35"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnc-9R-PbY">
                                 <rect key="frame" x="151" y="325" width="150" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yEh-m6-Mag">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="B1n-sy-D5t"/>
                                     <constraint firstAttribute="height" constant="60" id="dYn-8s-7iG"/>
@@ -81,6 +78,7 @@
                             </navigationBar>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="097-CS-Uch">
                                 <rect key="frame" x="210" y="185" width="94" height="29"/>
+                                <animations/>
                                 <connections>
                                     <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ypT-rM-ROx"/>
                                     <action selector="stepperValueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="9ch-TV-cyA"/>
@@ -88,6 +86,7 @@
                             </stepper>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="o5l-0i-Gs4">
                                 <rect key="frame" x="16" y="244" width="288" height="33"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="hvN-4Y-8k1"/>
                                     <constraint firstAttribute="height" constant="32" id="wVS-5I-OtZ"/>
@@ -102,23 +101,35 @@
                                     <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="kpa-2D-kcW"/>
                                 </connections>
                             </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ibn-SX-9J2">
+                                <rect key="frame" x="0.0" y="100" width="320" height="45"/>
+                                <animations/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light"/>
+                                <connections>
+                                    <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="editingChanged" id="45K-jy-JUZ"/>
+                                </connections>
+                            </textField>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.12549019607843137" green="0.64313725490196083" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="ibn-SX-9J2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="CDc-Dy-TU8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="o5l-0i-Gs4" secondAttribute="trailing" constant="3" id="DL8-Jg-GM4"/>
                             <constraint firstItem="P6N-Ie-ZB2" firstAttribute="leading" secondItem="7nA-O1-bx9" secondAttribute="leading" id="FQF-DF-1nf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ibn-SX-9J2" secondAttribute="trailing" id="HO3-3q-Ifg"/>
                             <constraint firstItem="097-CS-Uch" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Igh-f2-EV2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yEh-m6-Mag" secondAttribute="trailing" constant="-16" id="LLO-ad-tlB"/>
                             <constraint firstItem="o5l-0i-Gs4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="3" id="YSx-Ov-rV7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ibn-SX-9J2" secondAttribute="trailing" id="ZBM-lw-G3w"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ped-ZA-aJX" secondAttribute="trailing" constant="-16" id="chm-cd-tg4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yEh-m6-Mag" secondAttribute="trailing" id="fgT-xk-l4c"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fnc-9R-PbY" secondAttribute="trailing" constant="3" id="jxj-1h-ob7"/>
                             <constraint firstItem="yEh-m6-Mag" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="k4W-Nt-WQY"/>
                             <constraint firstItem="Ylh-sO-tZh" firstAttribute="leading" secondItem="fnc-9R-PbY" secondAttribute="leading" id="nYa-jS-1eR"/>
+                            <constraint firstItem="ibn-SX-9J2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="nre-2M-S3O"/>
                             <constraint firstItem="Ped-ZA-aJX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="xAm-xX-LJl"/>
                             <constraint firstItem="Ylh-sO-tZh" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="xjh-MP-4do"/>
                             <constraint firstItem="yEh-m6-Mag" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="xoK-yz-GTY"/>
@@ -129,11 +140,14 @@
                     </view>
                     <connections>
                         <outlet property="billField" destination="ibn-SX-9J2" id="2Nw-iS-cpP"/>
+                        <outlet property="darkView" destination="Ped-ZA-aJX" id="PRw-tE-gRc"/>
                         <outlet property="peopleLabel" destination="mfJ-UI-Mg4" id="2iV-J9-JbJ"/>
                         <outlet property="peopleStepper" destination="097-CS-Uch" id="MwC-bv-GgX"/>
                         <outlet property="tipLabel" destination="fnc-9R-PbY" id="U3q-nq-JwD"/>
                         <outlet property="tipSegment" destination="o5l-0i-Gs4" id="Qks-Qx-gbl"/>
+                        <outlet property="tipText" destination="7nA-O1-bx9" id="pQ2-da-SHB"/>
                         <outlet property="totalLabel" destination="Ylh-sO-tZh" id="c4y-5f-mRc"/>
+                        <outlet property="totalText" destination="P6N-Ie-ZB2" id="Bu0-WR-eI0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
